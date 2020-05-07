@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+
+}
+/*Styling for the header section*/
+a{
+    color: white;
+}
+span{
+    display: inline-block;
+    width: 5%;
+}
+#header{
+    color: snow;
+    background: #316DC3 !important;
+    margin: 0;
+}
+.header-h3{
+    margin: 0;
+    padding: 15px 10px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    display: inline-block;
+}
+.header-btn{
+    color: #427900;
+    padding: 5px 10px;
+}
+
+/*Styling for the drop down section*/
+li a{
+    color: black;
+}
+div ul{
+    padding-top: 13px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: snow;
+    line-height: 40px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+ul li a:hover{
+    background-color: #316DC3 !important;
+    color: white;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul ul{
+    display: none;
+    position: absolute;
+    display: none;
+}
+ul li:hover > ul{
+    display: block;
+}
+ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+ul ul ul li{
+    position: relative;
+    margin-left: 150px;
+    top: -50px;
+}
+
+#drop-down{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Saylani-logo{
+    width: 200px;
+    height: 70px;
+    padding-left: 5%;
+}
+.drop-float{
+    float: right;
+    padding-right: 3%;
+}
+
+/*Styling main picture of the page*/
+.main-bg{
+    height: auto;
+    width: 100%;
+}
+/*Styling Introduction section here*/
+.introduction{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.intro{
+    color: #316DC3;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 40px;
+    text-align: center;
+
+}
+.duction{
+    color: #427900 ;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line-left{
+    display: inline-block;
+    color: #427900;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 60px;
+}
+.line-right{
+    display: inline-block;
+    color: #427900;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+    margin: 3% 10%;
+    line-height: 1.9;
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Styling of the blue area section with 4 boxes */
+.section{
+    background-color: rgb(0, 74, 194);
+    margin: 0;
+}
+.box-heading{
+    color: snow;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 500;
+}
+.box{
+    display: inline-block;
+    margin: 7% 4%;
+    text-align: center;
+}
+.box-image{
+    color: white;
+    height: 40px;
+}
+.box-h3{
+    color:snow;
+    display: inline-block;
+}
+.box-green-h3{
+    color: rgb(0, 255, 0);
+    display: inline-block;
+}
+
+/* What we are doing section styling here */
+.section-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.blue{
+    color: #316DC3;
+    display: inline-block;
+    font-weight: 600;
+    font-family: serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.green{
+    display: inline-block;
+    color: #427900;
+    font-weight: 600;
+    font-family: serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.heading{
+    text-align: center;
+}
+.white-box{
+    display: inline-block;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    margin: 3% 6%;
+    text-align: center;
+    /* padding: 30px 50px 30px 50px; */
+    width: 250px;
+    height: 160px;
+}
+.sec-01-h3{
+    color: #316DC3;
+    line-height: 1.42857143;
+    font-weight: 600;
+    font-family: serif;
+}
+.sec-01-image{
+    width: 70px;
+}
+
+/* styling our mission and future plans */
+.sec-02-h1{
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+    font-family: serif;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.sec-02-box{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #e9ecf2;
+    display: inline-block;
+    margin: 3% 5%;
+}
+.sec-02-h4{
+    color: #316DC3;
+    display: inline-block ;
+    margin-top: -10px;
+}
+.sec-02-image{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* Styling images gallery */
+.images{
+    margin: 3% 5%;
+}
+.thumbnail{
+    width: 200px;
+    height: 150px;
+    margin: 2% 0.5%;
+}
+.sec-03{
+    padding-bottom: 7%;
+    padding-top: 3%;
+}
+
+
+.footer_setion{
+    background-color:darkslategrey;
+    margin-top: 50px;
+    height: 600px;
+    }
+    .head_office
+    {
+        margin-top: 80px;
+        color:lightgrey;
+        font-size: 1em;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+    }
+    h6{
+        color: white;
+        font-size: 1em;
+    }
+    hr{
+        background-color: forestgreen;
+    }
+    .userful_links,.Contact
+    {
+        margin-top: 80px;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: 1px;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .main_footer
+        background-color: gainsboro;
+        max-width: 100%;
+        height: 60px;
+    }
+    .copyright{
+        margin-top: 20px;
+        font-style: normal;
+        font-family: serif;
+        font-weight: 1em
+    }
+
